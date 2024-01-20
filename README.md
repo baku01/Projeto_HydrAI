@@ -6,7 +6,7 @@ Este relatório conduz uma análise detalhada dos modelos de regressão aplicado
 ## Métricas de Avaliação 📏
 
 ### Mean Absolute Error (MAE) 😮
-- **Interpretação:** Uma média absoluta dos erros entre as previsões e os valores reais. Quanto menor, melhor. No seu caso, o valor é 4.57, o que sugere que, em média, as previsões estão a aproximadamente 4.57 unidades de distância dos valores reais.
+- **Interpretação:** Uma média absoluta dos erros entre as previsões e os valores reais. Quanto menor, melhor.
 - **Exemplo de Uso:**
   ```python
   from sklearn.metrics import mean_absolute_error
@@ -14,7 +14,7 @@ Este relatório conduz uma análise detalhada dos modelos de regressão aplicado
   ```
 
 ### Mean Squared Error (MSE) 📉
-- **Interpretação:** Uma média dos quadrados dos erros entre as previsões e os valores reais. Quanto menor, melhor. No seu caso, o valor é 31.46, indicando que os erros são relativamente pequenos.
+- **Interpretação:** Uma média dos quadrados dos erros entre as previsões e os valores reais. Quanto menor, melhor.
 - **Exemplo de Uso:**
   ```python
   from sklearn.metrics import mean_squared_error
@@ -22,7 +22,7 @@ Este relatório conduz uma análise detalhada dos modelos de regressão aplicado
   ```
 
 ### R-squared (R²) 📈
-- **Interpretação:** Coeficiente de determinação. Varia de 0 a 1, sendo 1 o melhor resultado. Indica a proporção da variância na variável dependente que é previsível a partir das variáveis independentes. No seu caso, o valor é 0.99999, indicando uma excelente capacidade do modelo em explicar a variação nos dados.
+- **Interpretação:** Coeficiente de determinação. Varia de 0 a 1, sendo 1 o melhor resultado. Indica a proporção da variância na variável dependente que é previsível a partir das variáveis independentes.
 - **Exemplo de Uso:**
   ```python
   from sklearn.metrics import r2_score
